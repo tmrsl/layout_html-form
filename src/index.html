@@ -11,9 +11,6 @@
     <link rel="stylesheet" href="./style.css">
   </head>
   <body>
-
-    <script type="text/javascript" src="./main.js"></script>
-
     <form
       action="https://mate-academy-form-lesson.herokuapp.com/create-application"
       method="post"
@@ -64,10 +61,10 @@
         </div>
 
         <div>
-          <label for="terms-and-conditions">I accept the term of the agreement</label>
+          <label for="termsAndConditions">I accept the term of the agreement</label>
           <input
             type="checkbox"
-            id="terms-and-conditions"
+            id="termsAndConditions"
             name="terms"
             required
           >
@@ -108,22 +105,22 @@
         <div class="mb-10">
           Do you love cats?
 
-          <label for="answer-yes">
+          <label for="answerYes">
             <input
               type="radio"
-              name="question-about-cats"
+              name="questionAboutCats"
               value="Yes"
-              id="answer-yes"
+              id="answerYes"
             >
             Yes
           </label>
 
-          <label for="answer-no">
+          <label for="answerNo">
             <input
               type="radio"
-              name="question-about-cats"
+              name="questionAboutCats"
               value="No"
-              id="answer-no"
+              id="answerNo"
             >
             No
           </label>
@@ -157,7 +154,6 @@
             <option value="BMW">BMW</option>
             <option value="Audi">Audi</option>
             <option value="Lada">Lada</option>
-            <option value=""></option>
           </select>
         </div>
 
@@ -191,5 +187,7 @@
     </form>
 
     <button type="submit">Submit</button>
+
+    <script type="text/javascript" src="./main.js"></script>
   </body>
 </html>
